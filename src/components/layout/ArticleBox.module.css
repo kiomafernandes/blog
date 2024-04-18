@@ -1,0 +1,48 @@
+.articlebox {
+    width: 100%;
+    max-height: 7em;
+    border: 1px dotted rgb(58, 163, 58);
+    padding: 1em;
+    border-radius: 2em;
+    /* margin: 1em ; */
+}
+
+.articlebox h1, 
+.articlebox p {
+    color: rgb(58, 163, 58);
+}
+
+.gren {
+    padding: 0.5em 0.7em;
+    margin: 0.5em 0.5em;
+    background-color: rgb(58, 163, 58);
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gren:hover {
+    background-color: #fff;
+    border: 1px solid rgb(58, 163, 58);
+    color: rgb(58, 163, 58);
+}
+
+
+.red {
+    padding: 0.5em 0.7em;
+    margin: 0.5em 0.5em;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.red:hover {
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+}

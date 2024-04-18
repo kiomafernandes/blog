@@ -1,0 +1,119 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    background-color: #fdfafa;
+    padding: 1.5em 2em;
+    margin-bottom: 15em;
+}
+
+.navbar_dash {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    padding: 1.5em 0 0 0;
+    margin-bottom: 15em;
+}
+
+.navbar_container {
+    width: 100%;
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_container h1, 
+.navbar_container h3{
+    width: 50%;
+    text-align: center;
+}
+
+.navbar_container h3 {
+    color: limegreen;
+    font-size: 1.5em;
+}
+
+.navbar_container h1 a {
+    text-decoration: none;
+    color: limegreen;
+    font-size: 1.5em;
+}
+
+.navbar_container ul, 
+.navbar_container_button{
+    width: 50%;
+    display:  flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 3.7em;
+}
+
+.navbar_container_button button {
+    background-color: #fff;
+    color: limegreen;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 2em;
+    cursor: pointer;
+    border: 1px solid limegreen;
+}
+
+.navbar_container_button button:hover {
+    background-color: limegreen;
+    color: #fff;
+    border: 2px solid #FFF;
+}
+
+.navbar_container ul li{
+    list-style: none;
+}
+
+.navbar_container ul li a{
+    text-decoration: none;
+    color: #333;
+    transition: 1s;
+}
+
+.navbar_container ul li a:hover {
+    color: limegreen;
+}
+
+.navbar_button_sessions {
+    width: 100%;
+    padding: 1em 0;
+    margin: 0.5em 0 0 0;
+    background-color: rgb(58, 163, 58);
+}
+
+.navbar_button_sessions ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar_button_sessions ul li a {
+    text-decoration: none;
+    color: limegreen;
+    background-color: #FFF;
+    padding: 0.5em 0.7em;
+    border-radius: 2em;
+    transition: 0.5s;
+}
+
+.navbar_button_sessions ul li a:hover{
+    color: #fff;
+    background-color: limegreen;
+    border: 1px solid #fff;
+}
+

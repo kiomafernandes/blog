@@ -1,0 +1,7 @@
+.message{
+    width: 50%;
+    padding: 1.5em 0.7em;
+    margin: 1.5em 0;
+    background-color: rgba(250, 52, 52, 0.644);
+    border: 1px solid red;
+}

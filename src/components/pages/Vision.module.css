@@ -1,0 +1,44 @@
+.vision, 
+.vision_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 5em;
+}
+
+.vision_btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5em;
+    margin: 2em 0;
+}
+
+.vision_btn a{
+    padding: 0.5em 0.7em;
+    border: 1px solid limegreen;
+    border-radius: 2em;
+    text-decoration: none;
+    color: limegreen;
+}
+
+.vision_btn a:hover {
+    background-color: limegreen;
+    color: #fff;
+}
+
+.vision_content {
+    padding: 0 5em;
+}
+
+.vision_content h1 {
+    color: limegreen;
+    font-size: 2em;
+}
+
+.vision_content p {
+    margin: 1em 0;
+    font-size: 1.5em;
+    text-align: justify;
+}

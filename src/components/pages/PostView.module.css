@@ -1,0 +1,60 @@
+.postView {
+    width: 100%;
+    padding: 6em 2em 2em 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.postView_btn{
+    width: 100%;
+    padding: 1.5em 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.postView_btn a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: limegreen;
+    padding: 0.4em;
+    border-radius: 1em;
+    border: 1px solid limegreen;
+}
+
+.postView_btn a:hover{
+    border: none;
+    background-color: limegreen;
+    color: #fff;
+    /* font-weight: bold; */
+}
+
+.postView_title {
+    padding: 2em;
+    width: 100%;
+    display:  flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.postView_title h1 {
+    font-size: 2.5em;
+    color: limegreen;
+    padding-bottom: 0.5em;
+}
+
+.postView_title p span {
+    font-weight: bold;
+}
+
+.postView_content {
+    width: 100%;
+    padding: 0 3em;
+}
+
+.postView_content p {
+    font-size: 1.4em;
+    margin: 1em 0;
+    padding: 0 2em;
+    text-align: justify;
+}

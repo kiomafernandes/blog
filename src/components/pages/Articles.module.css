@@ -1,0 +1,8 @@
+.articles {
+    width: 100%;
+    min-height: 90vh ;
+    padding: 8em 2em 2em 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
