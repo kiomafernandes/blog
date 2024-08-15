@@ -5,6 +5,7 @@ import SubmitButton from "../form/SubmitButton";
 // styles
 import styles from "./NewsLatter.module.css"
 
+
 function NewsLatter({ btnText }){
     return(
         <form className={styles.form}>
